@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8761}
+
+spring:
+  application:
+    name: pm-discovery-server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost
